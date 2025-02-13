@@ -10,10 +10,17 @@ config_version=5
 
 [application]
 
-config/name="FirstPerson"
+config/name="Genesis"
+config/version="0.0.0"
 run/main_scene="res://node_3d.tscn"
 config/features=PackedStringArray("4.3", "C#", "Forward Plus")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/mode=3
+window/size/resizable=false
 
 [dotnet]
 
